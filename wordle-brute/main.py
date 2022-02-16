@@ -1,10 +1,16 @@
-# WELCOME! Please read the readme.md file first
-# WELCOME! Please read the readme.md file first
-# WELCOME! Please read the readme.md file first
-# Follow me on Twitter @heyValVincent
+### WELCOME! Please read the readme.md file first
+### Follow me on Twitter @heyValVincent
 
+# list.py contains Python list named 'wordlist'.
+# contains all 12,972 5-letter words found in the ORIGINAL Wordle JavaScript.
 
-from list import wordlist as wordle_list
+# nyt_list.py contains Python list named 'wordlist'.
+# contains all 12,947 5-letter words found in the NYTimes Wordle JavaScript.
+
+### Uncomment/comment out the appropriate line/s of code whether using ORIGINAL or NYTIMES Wordle
+# from list import wordlist as wordle_list ### ORIGINAL Wordle
+from nyt_list import wordlist as wordle_list ### NYTimes Wordle
+
 import os
 
 keep_running = True
